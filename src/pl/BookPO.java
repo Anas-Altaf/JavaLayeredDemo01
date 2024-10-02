@@ -8,9 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class BookPO extends JFrame {
-    private static final String URL = "jdbc:mysql://localhost:3306/bookdb";
-    private static final String USER = "root";
-    private static final String PASSWORD = "";
+
     private JTextField searchField;
     private JButton searchButton;
     private JTextArea resultArea;
