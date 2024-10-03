@@ -3,7 +3,7 @@ import pl.BookPO;
 import javax.swing.*;
 
 
-public class Main {
+public class DriverClass {
 
 
     public static void main(String[] args) {
