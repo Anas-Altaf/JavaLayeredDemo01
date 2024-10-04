@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class BookDAO implements IBookDAO {
+public class MySQLBookDAO implements IBookDAO {
     private static final String URL = "jdbc:mysql://localhost:3306/bookdb";
     private static final String USER = "root";
     private static final String PASSWORD = "";

@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="189989d5-11d6-4ba7-bac5-e94525abf11e" name="Changes" comment="Layered Architecture implemented">
-      <change afterPath="$PROJECT_DIR$/src/dal/CSVDAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/IFactoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/MemberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/SQLDAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/VenderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dal/CSVBookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dal/CSVMemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dal/MySQLDAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dal/SQLMemberDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bll/BookBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bll/BookBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dal/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal/MySQLBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/CSVDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal/CSVDAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/DAOFascade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal/DAOFascade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/MemberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal/MySQLMemberDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/SQLDAOFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dal/VenderDAO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +64,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/_/Downloads/mysql-connector-j-8.0.31.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feat/FactoryDAO",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/_/Downloads/mysql-connector-j-8.0.31.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
