@@ -14,7 +14,7 @@ public class BookBO {
 
     public String searchBooks(String title) {
         // String title = searchField.getText();
-        List<Book> books = bookDAO.searchBooksByTitle(title);
+        List<Book> books = bookDAO.searchBookByTitle(title);
         String result = "";
         if (books.isEmpty()) {
             result += "No books found.";
@@ -25,5 +25,5 @@ public class BookBO {
         }
         return result;
     }
-    
+
 }
