@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="189989d5-11d6-4ba7-bac5-e94525abf11e" name="Changes" comment="Layered Architecture implemented">
-      <change afterPath="$PROJECT_DIR$/src/dal/CSVDAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/IFactoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/MemberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/SQLDAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dal/VenderDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bll/BookBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bll/BookBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dal/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dal/BookDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +32,12 @@
     &quot;assignee&quot;: &quot;Anas-Altaf&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Anas-Altaf/JavaLayeredDemo01&quot;,
-    &quot;accountId&quot;: &quot;f257a26e-3d04-4c88-b80a-8fdcde69cbae&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Anas-Altaf/JavaLayeredDemo01",
+    "accountId": "c1dc7dba-9677-40aa-bfd4-7ad82de0c59f"
   }
-}</component>
+}]]></component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -59,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/_/Downloads/mysql-connector-j-8.0.31.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feat/FactoryDAO",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/_/Downloads/mysql-connector-j-8.0.31.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -130,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727943485985</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Layered Architecture implemented">
+      <option name="closed" value="true" />
+      <created>1728024559842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728024559842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,5 +148,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Layered Architecture implemented" />
     <option name="LAST_COMMIT_MESSAGE" value="Layered Architecture implemented" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dal/DAOFascade.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,20 +1,20 @@
 package bll;
 
-import dal.BookDAO;
+import dal.MySQLBookDAO;
 import dto.Book;
 
 import java.util.List;
 
 public class BookBO {
-    BookDAO bookDAO;
+    MySQLBookDAO mySQLBookDAO;
 
     public BookBO() {
-        bookDAO = new BookDAO();
+        mySQLBookDAO = new MySQLBookDAO();
     }
 
     public String searchBooks(String title) {
         // String title = searchField.getText();
-        List<Book> books = bookDAO.searchBookByTitle(title);
+        List<Book> books = mySQLBookDAO.searchBookByTitle(title);
         String result = "";
         if (books.isEmpty()) {
             result += "No books found.";
